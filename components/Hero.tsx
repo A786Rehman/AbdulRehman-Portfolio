@@ -49,15 +49,24 @@ const Hero = () => {
 
             
           </div>
-          <div data-aos="fade-left" data-aos-delay="2000" className="hidden md:block">
-            <Image
-              src="/images/hero1.jpeg"
-              alt="/"
-              width={600}
-              height={600}
-              className="object-contain rounded-full"
-            />
-          </div>
+          <div
+  data-aos="fade-left"
+  data-aos-delay="2000"
+  className="hidden md:block ml-60"
+>
+  <div className="group inline-block rounded-md overflow-hidden">
+    <div className="bg-transparent group-hover:bg-cyan-300 transition-colors duration-300 p-1 rounded-md">
+      <Image
+        src="/images/h1.png"
+        alt="Profile"
+        width={400}
+        height={400}
+        className="rounded-md transition-transform duration-300 group-hover:scale-105"
+      />
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </div>
